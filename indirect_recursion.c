@@ -1,3 +1,4 @@
+// indirect recursion
 #include<stdio.h>
 void odd();
 void even();
