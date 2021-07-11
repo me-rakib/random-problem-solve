@@ -50,3 +50,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+.fuse_hidden000002c000000003
+.fuse_hidden000002bd00000002
+.fuse_hidden000002ba00000001
