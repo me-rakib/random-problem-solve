@@ -21,11 +21,11 @@ int main()
     }
     if(len2 == j)
     {
-        printf("%s is found in %s", str2, str1);
+        printf("%s is subsequence of %s", str2, str1);
     } 
     else
     {
-        printf("Not Found");
+        printf("%s is not a subsequence of %s", str2, str1);
     }
     return 0;
 }
