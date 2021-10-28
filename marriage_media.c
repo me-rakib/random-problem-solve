@@ -5,6 +5,7 @@ int main()
     printf("\n\nEligiblity Check\n\n");
     float height, weight, salary, assets;
     int vehicle;
+    int eligible = 0;
 
     printf("Enter height: ");
     scanf("%f", &height);
@@ -26,27 +27,15 @@ int main()
                     scanf("%d", &vehicle);
                     if (vehicle == 1)
                     {
-                        printf("\n1 - Eligible\n");
-                    }
-                    else
-                    {
-                        printf("\n0 - Not Eligible\n");
+                        eligible = 1;
                     }
                 }
-                else
-                {
-                    printf("\n0 - Not Eligible\n");
-                }
-            }
-            else
-            {
-                printf("\n0 - Not Eligible\n");
             }
         }
-        else
-        {
-            printf("\n0 - Not Eligible\n");
-        }
+    }
+    if(eligible == 1)
+    {
+        printf("\n1 - Eligible\n");
     }
     else
     {
